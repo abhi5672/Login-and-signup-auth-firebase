@@ -1,0 +1,88 @@
+
+
+.container {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #519bb5, #273788);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .innerBox {
+    min-width: 480px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .home{
+    text-decoration: none;
+    outline: none;
+    color: whitesmoke;
+    border: solid 1px white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    transition: 0.3s;
+  }
+  .home:hover{
+    color:#222;
+    background-color: whitesmoke;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer .error {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #f3603b;
+    text-align: center;
+  }
+  
+  .footer button {
+    outline: none;
+    border: none;
+    background-color: #519bb5;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 16px;
+    width: 100%;
+    transition: 100ms;
+    cursor: pointer;
+  }
+  
+  .footer button:disabled {
+    background-color: gray !important;
+  }
+  
+  .footer button:hover {
+    background-color: #438eaa;
+  }
+  
+  .footer p {
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .footer p span a {
+    font-weight: bold;
+    color: #519bb5;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-decoration: none;
+  }
